@@ -95,4 +95,15 @@ Hx+bHXVFvFlULCSM+J+ePlCkVsXU+5d/VR8LROfAxP7PGPyBjBrCCk5TK8/074KE
 -----END RSA PRIVATE KEY-----
 [1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:04:56][100D[?1h=[?2004hcat ~/.ssh/travis_id_rsa.pub[?1l>[?2004l
 ]2;cat ~/.ssh/travis_id_rsa.pub]1;catssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDb2N1ib+ZfJMRfZHJjZStiuOgCRLNlrhdywymoOly7LuD2OsspS1jb/DluE48QijtoRoiP6F8TyfejtjwRkuQgPy0zh6XpmhIHNcPCYBmZCQ2aaXrFt3Jf4ipiv8ekV1rur0WC0l6TDGbOw17kbVPa0CrT7tQb2mdyGeuIys90mosiUunFvvdl/pR/oEW4ter0nUB0ye+gNVrX/9VKRebL64up1Qq6wiu1yKxkpqF6yoV+5l1QarGpEPh2iSuQpvcX9Uo+LqHKiP1kcFE68quyOcWrdqGW5p01+cT/iBMOk+8Yxk34FuIP1cFEbQU41SHUirBQGdXd1MZsVpUO3Ww3 ryanwholey@Ryans-MacBook-Air.local
-[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:04:59][100D[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:04:59][100D[?1h=[?2004hggpm[?1l>[?2004l
+]2;git add . && git commit -m 'another' && git push origin master]1;gpm[master 5e80183] another
+ 2 files changed, 44 insertions(+), 2 deletions(-)
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 2.34 KiB | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/ryanwholey/travis-test.git
+   4750fae..5e80183  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster[0m[01;34m)[00m $ [K[92C[1:05:24][101D[?1h=[?2004h

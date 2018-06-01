@@ -8,7 +8,8 @@ then
   mkdir -p ./ssh && touch ./ssh/ssh.pub
   echo $SSH >> ./ssh/ssh.pub
   chmod 400 ./ssh/ssh.pub
-  ssh  -o StrictHostKeyChecking=no -i ./ssh/ssh.pub root@$OPEN_ESL_QA "touch doot"
+  # ssh-add ./ssh/ssh.pub
+  ssh  -o StrictHostKeyChecking=no -o BatchMode=yes -i ./ssh/ssh.pub root@$OPEN_ESL_QA "touch doot"
 
 else
   echo "pr pr pr"
