@@ -1,9 +1,5 @@
 language: node_js
 node_js:
   - "lts/*"
-deploy:
-  # deploy develop to the staging environment
-  - provider: script
-    script: yarn deploy:qa
-    on:
-      branch: master
+after_success:
+  - yarn deploy:qa
