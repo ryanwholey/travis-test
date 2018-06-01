@@ -1,0 +1,14 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryanwholey/travis-test.git",
+  "author": "Ryan Wholey <rjwholey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
