@@ -38,4 +38,19 @@ Script started on Fri Jun  1 00:59:05 2018
  8411* [01;31m[Kalias[m[K acytapes
  8413* [01;31m[Kalias[m[K acytapes
 10218* [01;31m[Kalias[m[K gpm="git add . && git commit -m 'another' && git push origin master"
-[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:00:03][100D[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:00:03][100D[?1h=[?2004h[7malias gpm="git add . && git commit -m 'another' && git push origin master"[27m[74D[27ma[27ml[27mi[27ma[27ms[27m [27mg[27mp[27mm[27m=[27m"[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m'[27ma[27mn[27mo[27mt[27mh[27me[27mr[27m'[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[27m"[?1l>[?2004l
+]2;alias gpm="git add . && git commit -m 'another' && git push origin master"]1;alias[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:00:07][100D[?1h=[?2004hggpm[?1l>[?2004l
+]2;git add . && git commit -m 'another' && git push origin master]1;gpm[master 73a240c] another
+ 2 files changed, 46 insertions(+), 5 deletions(-)
+ create mode 100644 typescript
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 1.19 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/ryanwholey/travis-test.git
+   479dc9d..73a240c  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster[0m[01;34m)[00m $ [K[92C[1:00:13][101D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mclient[39;49m[0m       [1m[36mnode_modules[39;49m[0m package.json [1m[36mscripts[39;49m[0m      server.js    typescript   yarn.lock
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;ryanwholey@Ryans-MacBook-Air: ~/pulls/travis-test]1;..s/travis-test[0m[27m[24m[J[32m[1mryanwholey[0m[00m:[34m[1mtravis-test/[0m[00m [01;34m([22;31m[1mmaster*[0m[01;34m)[00m $ [K[91C[1:01:04][100D[?1h=[?2004h
