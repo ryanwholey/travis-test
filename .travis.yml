@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - "lts/*"
-branches:
-  only:
-    - master
-  script:
-    - 'yarn deploy:qa'
-
+deploy:
+  # deploy develop to the staging environment
+  - provider: script
+    script: yarn deploy:qa
+    on:
+      branch: master
