@@ -9,10 +9,7 @@ then
   touch ./tmp/ssh-pub
   chmod 644 ./tmp/ssh-pub
   echo $SSH >> ./tmp/ssh.pub
-  ssh  -o StrictHostKeyChecking=no -i ./tmp/ssh.pub root@$OPEN_ESL_QA <<"ENDSSH"
-    # commands to run on remote host
-    echo "hello world"
-  ENDSSH
+  ssh  -o StrictHostKeyChecking=no -i ./tmp/ssh.pub root@$OPEN_ESL_QA "echo \"hello world\""
 else
   echo "pr pr pr"
 fi
