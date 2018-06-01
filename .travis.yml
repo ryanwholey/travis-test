@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "lts/*"
-deploy:
-  provider: script
-  script: scripts/deploy.sh
+branches:
+  only:
+    - master
+  script:
+    - 'yarn deploy:qa'
+
