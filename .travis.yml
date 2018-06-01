@@ -1,5 +1,8 @@
 language: node_js
 node_js:
   - "lts/*"
-after_success:
-  - yarn deploy:qa
+deploy:
+  provider: script
+  script: scripts/deploy.sh
+  on:
+    branch: master
