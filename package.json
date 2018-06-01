@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
       "start": "node server",
-      "deploy:qa": "./scripts/deploy.sh",
+      "deploy:qa": " bash scripts/deploy.sh",
       "test": "echo pass"
   },
   "dependencies": {
