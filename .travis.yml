@@ -1,2 +1,3 @@
 deploy:
-  - yarn deploy:qa
+  provider: script
+  script: scripts/deploy.sh
